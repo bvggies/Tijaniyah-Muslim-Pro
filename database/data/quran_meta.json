@@ -1,0 +1,52 @@
+[
+  {
+    "number": 1,
+    "name": "Al-Fatihah",
+    "english_name": "The Opening",
+    "arabic_name": "الفاتحة",
+    "revelation_type": "Meccan",
+    "number_of_verses": 7,
+    "number_of_words": 29,
+    "number_of_letters": 143
+  },
+  {
+    "number": 2,
+    "name": "Al-Baqarah",
+    "english_name": "The Cow",
+    "arabic_name": "البقرة",
+    "revelation_type": "Medinan",
+    "number_of_verses": 286,
+    "number_of_words": 6144,
+    "number_of_letters": 25613
+  },
+  {
+    "number": 3,
+    "name": "Ali 'Imran",
+    "english_name": "Family of Imran",
+    "arabic_name": "آل عمران",
+    "revelation_type": "Medinan",
+    "number_of_verses": 200,
+    "number_of_words": 3503,
+    "number_of_letters": 14605
+  },
+  {
+    "number": 4,
+    "name": "An-Nisa",
+    "english_name": "The Women",
+    "arabic_name": "النساء",
+    "revelation_type": "Medinan",
+    "number_of_verses": 176,
+    "number_of_words": 3763,
+    "number_of_letters": 16366
+  },
+  {
+    "number": 5,
+    "name": "Al-Ma'idah",
+    "english_name": "The Table Spread",
+    "arabic_name": "المائدة",
+    "revelation_type": "Medinan",
+    "number_of_verses": 120,
+    "number_of_words": 2833,
+    "number_of_letters": 12205
+  }
+]
