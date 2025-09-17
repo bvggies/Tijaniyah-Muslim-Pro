@@ -1,9 +1,9 @@
 services:
   - type: web
     name: tijaniyah-muslim-pro
-    env: php
+    env: docker
     plan: free
-    buildCommand: composer install --no-dev --optimize-autoloader
+    dockerfilePath: ./Dockerfile
     startCommand: php artisan serve --host=0.0.0.0 --port=$PORT
     envVars:
       - key: APP_ENV
