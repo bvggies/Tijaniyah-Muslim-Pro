@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "public/index.php",
-      "use": "@vercel/php"
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -11,10 +11,5 @@
       "src": "/(.*)",
       "dest": "public/index.php"
     }
-  ],
-  "env": {
-    "APP_ENV": "production",
-    "APP_DEBUG": "false",
-    "APP_URL": "https://tijaniyahmuslimpro.vercel.app"
-  }
+  ]
 }
