@@ -15,11 +15,6 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://tijaniyah-muslim-pro.vercel.app"
-  },
-  "functions": {
-    "public/index.php": {
-      "maxDuration": 30
-    }
+    "APP_URL": "https://tijaniyahmuslimpro.vercel.app"
   }
 }
