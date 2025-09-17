@@ -9,6 +9,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Health check endpoints for Railway
+Route::get('/health', function () {
+    return response()->json([
+        'status' => 'ok',
+        'timestamp' => now(),
+        'app' => 'Tijaniyah Muslim Pro',
+        'version' => '1.0.0'
+    ]);
+});
+
+Route::get('/healthcheck', function () {
+    return response()->json(['status' => 'healthy']);
+});
+
 // Mobile Dashboard Route
 Route::get('/mobile-dashboard', function () {
     return view('mobile.dashboard');
